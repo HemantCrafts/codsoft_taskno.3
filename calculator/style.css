@@ -1,0 +1,45 @@
+table {
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    
+    border-radius: 25px;
+    padding: 25px;
+    -webkit-box-shadow: -11px 12px 40px 0px rgb(0, 0, 0);
+    -moz-box-shadow: -11px 12px 40px 0px rgb(0, 0, 0);
+    box-shadow: -11px 12px 40px 0px rgb(0, 0, 0);
+}
+
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #142F44;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+
+}
+
+input[type="button"]:hover {
+    opacity: 0.2;
+
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(5, 16, 27);
+    background-color: rgb(15, 54, 77);
+    color: white;
+}
+
+body {
+    background-color: #1D3849;
+}
